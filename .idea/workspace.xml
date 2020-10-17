@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6601974-2478-4df1-8cf7-16eab8a67098" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1j1AJNb3ln61XSDqt0sVsl8lrMN" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tagetfinder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestBinarySearchLastOccurence in target_finder/binarysearch">
+    <configuration name="TestBinarySearch in target_finder/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bradfield_takehome_exercise2" />
+      <working_directory value="$PROJECT_DIR$/binarysearch" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="target_finder/binarysearch" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestBinarySearch$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBinarySearchFirstOccurence in target_finder/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bradfield_takehome_exercise2" />
+      <working_directory value="$PROJECT_DIR$/binarysearch" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="target_finder/binarysearch" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestBinarySearchFirstOccurence$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBinarySearchLastOccurence in target_finder/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bradfield_takehome_exercise2" />
+      <working_directory value="$PROJECT_DIR$/binarysearch" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="target_finder/binarysearch" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestBinarySearchLastOccurence$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFindValueInSliceLinear in target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bradfield_takehome_exercise2" />
+      <working_directory value="$PROJECT_DIR$/tagetfinder" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="target_finder/tagetfinder" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestFindValueInSliceLinear$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestBinarySearchLastOccurence in target_finder/binarysearch" />
+        <item itemvalue="Go Test.TestBinarySearchFirstOccurence in target_finder/binarysearch" />
+        <item itemvalue="Go Test.TestBinarySearch in target_finder/binarysearch" />
+        <item itemvalue="Go Test.TestFindValueInSliceLinear in target_finder/tagetfinder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="660" y="332" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602961331565">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state x="660" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.973@0.23.1920.973" timestamp="1602961331565" />
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1602965026691">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom/0.23.1920.973@0.23.1920.973" timestamp="1602965026691" />
+    <state width="1878" height="232" key="GridCell.Tab.0.center" timestamp="1602965026690">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="232" key="GridCell.Tab.0.center/0.23.1920.973@0.23.1920.973" timestamp="1602965026690" />
+    <state width="1878" height="232" key="GridCell.Tab.0.left" timestamp="1602965026689">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="232" key="GridCell.Tab.0.left/0.23.1920.973@0.23.1920.973" timestamp="1602965026689" />
+    <state width="1878" height="232" key="GridCell.Tab.0.right" timestamp="1602965026690">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="232" key="GridCell.Tab.0.right/0.23.1920.973@0.23.1920.973" timestamp="1602965026690" />
+    <state width="1878" height="324" key="GridCell.Tab.1.bottom" timestamp="1602965017122">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.bottom/0.23.1920.973@0.23.1920.973" timestamp="1602965017122" />
+    <state width="1878" height="324" key="GridCell.Tab.1.center" timestamp="1602965017121">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.center/0.23.1920.973@0.23.1920.973" timestamp="1602965017121" />
+    <state width="1878" height="324" key="GridCell.Tab.1.left" timestamp="1602965017121">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.left/0.23.1920.973@0.23.1920.973" timestamp="1602965017121" />
+    <state width="1878" height="324" key="GridCell.Tab.1.right" timestamp="1602965017122">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state width="1878" height="324" key="GridCell.Tab.1.right/0.23.1920.973@0.23.1920.973" timestamp="1602965017122" />
+  </component>
+</project>
