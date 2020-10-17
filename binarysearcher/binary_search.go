@@ -1,9 +1,9 @@
-package binarysearch
+package binarysearcher
 
 func BinarySearchFirstOccurence(target, indexLow, indexHigh int, inputArray []int) int {
 	if indexHigh >= indexLow {
 		indexMid := (indexLow + indexHigh)/2
-		if inputArray[indexMid] == target && (target > inputArray[indexMid - 1]) {
+		if inputArray[indexMid] == target && (indexMid == 0 || target > inputArray[indexMid - 1]) {
 			return indexMid
 		}
 		if inputArray[indexMid] >= target {
@@ -18,7 +18,7 @@ func BinarySearchFirstOccurence(target, indexLow, indexHigh int, inputArray []in
 func BinarySearchLastOccurence(target, indexLow, indexHigh int, inputArray []int) int {
 	if indexHigh >= indexLow {
 		indexMid := (indexLow + indexHigh)/2
-		if inputArray[indexMid] == target && (target < inputArray[indexMid + 1]) {
+		if inputArray[indexMid] == target && (indexMid == 0 || target < inputArray[indexMid + 1]) {
 			return indexMid
 		}
 		if inputArray[indexMid] <= target {

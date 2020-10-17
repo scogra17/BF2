@@ -38,41 +38,49 @@
       <recent name="$PROJECT_DIR$/tagetfinder" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestBinarySearchLastOccurence in target_finder/binarysearch">
-    <configuration name="TestBinarySearch in target_finder/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build target_finder">
+    <configuration name="go build target_finder" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
-      <working_directory value="$PROJECT_DIR$/binarysearch" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="target_finder/binarysearch" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="target_finder" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestBinarySearch$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBinarySearchFirstOccurence in target_finder/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkFindValueInSliceBinary in target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
-      <working_directory value="$PROJECT_DIR$/binarysearch" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$/tagetfinder" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="target_finder/binarysearch" />
+      <package value="target_finder/tagetfinder" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestBinarySearchFirstOccurence$" />
+      <pattern value="^BenchmarkFindValueInSliceBinary$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBinarySearchLastOccurence in target_finder/binarysearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkFindValueInSliceLinear in target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
-      <working_directory value="$PROJECT_DIR$/binarysearch" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$/tagetfinder" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="target_finder/binarysearch" />
+      <package value="target_finder/tagetfinder" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestBinarySearchLastOccurence$" />
+      <pattern value="^BenchmarkFindValueInSliceLinear$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFindValueInSliceLinear in target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test target_finder/slicegenerator" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bradfield_takehome_exercise2" />
+      <working_directory value="$PROJECT_DIR$/slicegenerator" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="target_finder/slicegenerator" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
       <working_directory value="$PROJECT_DIR$/tagetfinder" />
       <framework value="gotest" />
@@ -80,15 +88,15 @@
       <package value="target_finder/tagetfinder" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestFindValueInSliceLinear$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestBinarySearchLastOccurence in target_finder/binarysearch" />
-        <item itemvalue="Go Test.TestBinarySearchFirstOccurence in target_finder/binarysearch" />
-        <item itemvalue="Go Test.TestBinarySearch in target_finder/binarysearch" />
-        <item itemvalue="Go Test.TestFindValueInSliceLinear in target_finder/tagetfinder" />
+        <item itemvalue="Go Build.go build target_finder" />
+        <item itemvalue="Go Test.BenchmarkFindValueInSliceBinary in target_finder/tagetfinder" />
+        <item itemvalue="Go Test.BenchmarkFindValueInSliceLinear in target_finder/tagetfinder" />
+        <item itemvalue="Go Test.go test target_finder/slicegenerator" />
+        <item itemvalue="Go Test.go test target_finder/tagetfinder" />
       </list>
     </recent_temporary>
   </component>
@@ -104,22 +112,22 @@
       <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state x="660" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.973@0.23.1920.973" timestamp="1602961331565" />
-    <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1602965026691">
+    <state width="1878" height="403" key="GridCell.Tab.0.bottom" timestamp="1602971592837">
       <screen x="0" y="23" width="1920" height="973" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.bottom/0.23.1920.973@0.23.1920.973" timestamp="1602965026691" />
-    <state width="1878" height="232" key="GridCell.Tab.0.center" timestamp="1602965026690">
+    <state width="1878" height="403" key="GridCell.Tab.0.bottom/0.23.1920.973@0.23.1920.973" timestamp="1602971592837" />
+    <state width="1878" height="403" key="GridCell.Tab.0.center" timestamp="1602971592836">
       <screen x="0" y="23" width="1920" height="973" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.center/0.23.1920.973@0.23.1920.973" timestamp="1602965026690" />
-    <state width="1878" height="232" key="GridCell.Tab.0.left" timestamp="1602965026689">
+    <state width="1878" height="403" key="GridCell.Tab.0.center/0.23.1920.973@0.23.1920.973" timestamp="1602971592836" />
+    <state width="1878" height="403" key="GridCell.Tab.0.left" timestamp="1602971592835">
       <screen x="0" y="23" width="1920" height="973" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.left/0.23.1920.973@0.23.1920.973" timestamp="1602965026689" />
-    <state width="1878" height="232" key="GridCell.Tab.0.right" timestamp="1602965026690">
+    <state width="1878" height="403" key="GridCell.Tab.0.left/0.23.1920.973@0.23.1920.973" timestamp="1602971592835" />
+    <state width="1878" height="403" key="GridCell.Tab.0.right" timestamp="1602971592836">
       <screen x="0" y="23" width="1920" height="973" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.right/0.23.1920.973@0.23.1920.973" timestamp="1602965026690" />
+    <state width="1878" height="403" key="GridCell.Tab.0.right/0.23.1920.973@0.23.1920.973" timestamp="1602971592836" />
     <state width="1878" height="324" key="GridCell.Tab.1.bottom" timestamp="1602965017122">
       <screen x="0" y="23" width="1920" height="973" />
     </state>

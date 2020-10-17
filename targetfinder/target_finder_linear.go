@@ -1,4 +1,4 @@
-package tagetfinder
+package targetfinder
 
 func FindValueInSliceLinear(target int, intSlice []int) int {
 	targetCount := 0

@@ -1,4 +1,4 @@
-package binarysearch
+package binarysearcher
 
 import "testing"
 
@@ -29,7 +29,7 @@ func TestBinarySearchFirstOccurence(t *testing.T) {
 	for _, test := range testCases {
 		index := BinarySearchFirstOccurence(test.target, 0,len(test.array)-1, test.array)
 		if index != test.expectedIndex {
-			t.Errorf("BinarySearch failed, expected index %d, go %d", test.expectedIndex, index)
+			t.Errorf("BinarySearch failed, expected index %d, got %d", test.expectedIndex, index)
 		}
 	}
 }
@@ -61,7 +61,7 @@ func TestBinarySearchLastOccurence(t *testing.T) {
 	for _, test := range testCases {
 		index := BinarySearchLastOccurence(test.target, 0,len(test.array)-1, test.array)
 		if index != test.expectedIndex {
-			t.Errorf("BinarySearch failed, expected index %d, go %d", test.expectedIndex, index)
+			t.Errorf("BinarySearch failed, expected index %d, got %d", test.expectedIndex, index)
 		}
 	}
 }
