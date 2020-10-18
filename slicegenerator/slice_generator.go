@@ -6,10 +6,10 @@ import (
 )
 
 
-func GenerateRandomOrderedSlice(length, maxValue int) (int, []int) {
+func GenerateRandomOrderedSlice(length, maxIntegerValue int) (int, []int) {
 	randomSlice := make([]int, length)
 	for i, _ := range randomSlice {
-		randomSlice[i] = rand.Intn(maxValue)
+		randomSlice[i] = rand.Intn(maxIntegerValue)
 	}
 	sort.Ints(randomSlice)
 

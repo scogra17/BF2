@@ -8,16 +8,16 @@ import (
 func TestSliceGenerator(t *testing.T) {
 	testCases := []struct{
 		sliceLength int
-		maxValue int
+		maxIntegerValue int
 	}{
 		{
 			sliceLength: 9,
-			maxValue: 100,
+			maxIntegerValue: 100,
 		},
 	}
 
 	for _, test := range testCases {
-		_, slice := GenerateRandomOrderedSlice(test.sliceLength, test.maxValue)
+		_, slice := GenerateRandomOrderedSlice(test.sliceLength, test.maxIntegerValue)
 		if len(slice) != test.sliceLength {
 			t.Errorf("GenerateRandomOrderedSlice failed, expected slice of length %d, got %v", test.sliceLength, slice)
 		}
