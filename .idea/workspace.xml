@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6601974-2478-4df1-8cf7-16eab8a67098" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarysearcher/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarysearcher/binary_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slicegenerator/slice_generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/slicegenerator/slice_generator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/targetfinder/target_finder_binary.go" beforeDir="false" afterPath="$PROJECT_DIR$/targetfinder/target_finder_binary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/targetfinder/target_finder_linear.go" beforeDir="false" afterPath="$PROJECT_DIR$/targetfinder/target_finder_linear.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
       <recent name="$PROJECT_DIR$/tagetfinder" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build target_finder">
+  <component name="RunManager" selected="Go Test.go test target_finder/binarysearcher">
     <configuration name="go build target_finder" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -77,6 +80,16 @@
       <pattern value="^BenchmarkFindValueInSliceLinear$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test target_finder/binarysearcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bradfield_takehome_exercise2" />
+      <working_directory value="$PROJECT_DIR$/binarysearcher" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="target_finder/binarysearcher" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go test target_finder/slicegenerator" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
       <working_directory value="$PROJECT_DIR$/slicegenerator" />
@@ -87,23 +100,13 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="bradfield_takehome_exercise2" />
-      <working_directory value="$PROJECT_DIR$/tagetfinder" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="target_finder/tagetfinder" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test target_finder/binarysearcher" />
         <item itemvalue="Go Build.go build target_finder" />
         <item itemvalue="Go Test.BenchmarkFindValueInSliceBinary in target_finder/tagetfinder" />
         <item itemvalue="Go Test.BenchmarkFindValueInSliceLinear in target_finder/tagetfinder" />
         <item itemvalue="Go Test.go test target_finder/slicegenerator" />
-        <item itemvalue="Go Test.go test target_finder/tagetfinder" />
       </list>
     </recent_temporary>
   </component>

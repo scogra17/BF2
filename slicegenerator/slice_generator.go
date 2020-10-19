@@ -5,7 +5,8 @@ import (
 	"sort"
 )
 
-
+// GenerateRandomOrderedSlice generates slice of ints of length length and with
+// max value maxIntegerValue
 func GenerateRandomOrderedSlice(length, maxIntegerValue int) (int, []int) {
 	randomSlice := make([]int, length)
 	for i, _ := range randomSlice {

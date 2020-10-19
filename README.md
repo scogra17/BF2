@@ -13,20 +13,21 @@ To prepare your system to run this project:
 1. Verify you have Golang installed: `go --version`
 2. If not, install: `brew install golang`
 3. Verify your GOPATH environment variable is set: `echo $GOPATH`
-4. If not set: `export GOPATH=<insert-path-to-directory-where-you-will-save-go-projects>`  
+4. If not, set: `export GOPATH=<insert-path-to-directory-where-you-will-save-go-projects>`  
 5. This project should be saved in the GOPATH
 
 ## Running the program
 There are three ways to benchmark the linear scan and double binary search
 functions. Each approach assumes you have already completed the **System Setup**
 above. 
-1. IDE (e.g. GoLand) via *_test.go files 
-2. Command line via _*test.go files:
+1. IDE (e.g. GoLand) via `*_test.go` files 
+2. Command line via `_*test.go` files:
     1. `cd $GOPATH/src/bradfield_takehome_exercise2/targetfinder`
     2. `go test -bench=. -benchtime=10s`
-2. Command line via main functions:
-    1. build the project `go build`
-    2. run main `go run main.go`
+2. Command line via main() function:
+    1. `cd $GOPATH/src/bradfield_takehome_exercise2`
+    2. build the project `go build`
+    3. run main `go run main.go`
 
 ## Notes
 For benchmarking, I arbitrarily set the maximum value of the randomly generated
@@ -43,7 +44,7 @@ binary search
 * Modify benchTime for main function benchmarking (currently the default is 1s
 when run via main vs. 10s when run via tests) 
 * Continue reading Golang benchmarking docs to determine if: 
-    * Input & benchmark function names can be dynamically altered 
+    * Input & benchmark function names can be dynamically generated 
     * A single input value can be shared by separate benchmarking functions 
 
 ## Helpful resources 
