@@ -11,7 +11,7 @@ This project is written in Golang, version 1.15.
 To prepare your system to run this project: 
 
 1. Verify you have Golang installed: `go --version`
-2. If not installed: `brew install golang`
+2. If not, install: `brew install golang`
 3. Verify your GOPATH environment variable is set: `echo $GOPATH`
 4. If not set: `export GOPATH=<insert-path-to-directory-where-you-will-save-go-projects>`  
 5. This project should be saved in the GOPATH
