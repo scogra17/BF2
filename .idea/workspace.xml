@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6601974-2478-4df1-8cf7-16eab8a67098" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarysearcher/binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarysearcher/binary_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slicegenerator/slice_generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/slicegenerator/slice_generator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetfinder/target_finder_binary.go" beforeDir="false" afterPath="$PROJECT_DIR$/targetfinder/target_finder_binary.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/targetfinder/target_finder_linear.go" beforeDir="false" afterPath="$PROJECT_DIR$/targetfinder/target_finder_linear.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slicegenerator/slice_generator_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/slicegenerator/slice_generator_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <recent name="$PROJECT_DIR$/tagetfinder" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test target_finder/binarysearcher">
+  <component name="RunManager" selected="Go Test.go test target_finder/slicegenerator">
     <configuration name="go build target_finder" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
       <working_directory value="$PROJECT_DIR$" />
@@ -58,26 +56,15 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkFindValueInSliceBinary in target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSliceGenerator in target_finder/slicegenerator" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="bradfield_takehome_exercise2" />
-      <working_directory value="$PROJECT_DIR$/tagetfinder" />
-      <framework value="gobench" />
+      <working_directory value="$PROJECT_DIR$/slicegenerator" />
+      <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="target_finder/tagetfinder" />
+      <package value="target_finder/slicegenerator" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^BenchmarkFindValueInSliceBinary$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkFindValueInSliceLinear in target_finder/tagetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="bradfield_takehome_exercise2" />
-      <working_directory value="$PROJECT_DIR$/tagetfinder" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="target_finder/tagetfinder" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^BenchmarkFindValueInSliceLinear$" />
+      <pattern value="^TestSliceGenerator$" />
       <method v="2" />
     </configuration>
     <configuration name="go test target_finder/binarysearcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -100,13 +87,23 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test target_finder/targetfinder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bradfield_takehome_exercise2" />
+      <working_directory value="$PROJECT_DIR$/targetfinder" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="target_finder/targetfinder" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test target_finder/slicegenerator" />
+        <item itemvalue="Go Test.TestSliceGenerator in target_finder/slicegenerator" />
+        <item itemvalue="Go Test.go test target_finder/targetfinder" />
         <item itemvalue="Go Test.go test target_finder/binarysearcher" />
         <item itemvalue="Go Build.go build target_finder" />
-        <item itemvalue="Go Test.BenchmarkFindValueInSliceBinary in target_finder/tagetfinder" />
-        <item itemvalue="Go Test.BenchmarkFindValueInSliceLinear in target_finder/tagetfinder" />
-        <item itemvalue="Go Test.go test target_finder/slicegenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -122,26 +119,26 @@
       <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state x="660" y="332" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.973@0.23.1920.973" timestamp="1602961331565" />
-    <state width="1878" height="324" key="GridCell.Tab.0.bottom" timestamp="1603006032099">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1776" height="227" key="GridCell.Tab.0.bottom" timestamp="1603090086733">
+      <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state width="1878" height="324" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603006032099" />
-    <state width="1878" height="227" key="GridCell.Tab.0.bottom/0.23.1920.973@0.23.1920.973" timestamp="1602976464249" />
-    <state width="1878" height="324" key="GridCell.Tab.0.center" timestamp="1603006032099">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1776" height="227" key="GridCell.Tab.0.bottom/0.23.1920.973@0.23.1920.973" timestamp="1603090086733" />
+    <state width="1776" height="227" key="GridCell.Tab.0.center" timestamp="1603090086733">
+      <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state width="1878" height="324" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603006032099" />
-    <state width="1878" height="227" key="GridCell.Tab.0.center/0.23.1920.973@0.23.1920.973" timestamp="1602976464248" />
-    <state width="1878" height="324" key="GridCell.Tab.0.left" timestamp="1603006032098">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1776" height="227" key="GridCell.Tab.0.center/0.23.1920.973@0.23.1920.973" timestamp="1603090086733" />
+    <state width="1776" height="227" key="GridCell.Tab.0.left" timestamp="1603090086733">
+      <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state width="1878" height="324" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603006032098" />
-    <state width="1878" height="227" key="GridCell.Tab.0.left/0.23.1920.973@0.23.1920.973" timestamp="1602976464248" />
-    <state width="1878" height="324" key="GridCell.Tab.0.right" timestamp="1603006032099">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1776" height="227" key="GridCell.Tab.0.left/0.23.1920.973@0.23.1920.973" timestamp="1603090086733" />
+    <state width="1776" height="227" key="GridCell.Tab.0.right" timestamp="1603090086733">
+      <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state width="1878" height="324" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603006032099" />
-    <state width="1878" height="227" key="GridCell.Tab.0.right/0.23.1920.973@0.23.1920.973" timestamp="1602976464249" />
+    <state width="1776" height="227" key="GridCell.Tab.0.right/0.23.1920.973@0.23.1920.973" timestamp="1603090086733" />
     <state width="1878" height="324" key="GridCell.Tab.1.bottom" timestamp="1603006032100">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
